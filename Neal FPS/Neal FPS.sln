@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fps.AI", "fps.AI.csproj", "{418BC044-9237-E0BA-7C7F-D88ED3649F34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{45FF6C24-AC7B-D8C0-82D4-D5FE7B04AFA5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsEditor", "NavMeshComponentsEditor.csproj", "{E53260FD-439D-DE1D-B1F4-2E6654494325}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Microgame.Tutorials", "Unity.Microgame.Tutorials.csproj", "{AD7A1D19-6168-432D-2C8C-89EB41BC2C62}"
@@ -49,6 +51,10 @@ Global
 		{418BC044-9237-E0BA-7C7F-D88ED3649F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{418BC044-9237-E0BA-7C7F-D88ED3649F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{418BC044-9237-E0BA-7C7F-D88ED3649F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FF6C24-AC7B-D8C0-82D4-D5FE7B04AFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FF6C24-AC7B-D8C0-82D4-D5FE7B04AFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FF6C24-AC7B-D8C0-82D4-D5FE7B04AFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FF6C24-AC7B-D8C0-82D4-D5FE7B04AFA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E53260FD-439D-DE1D-B1F4-2E6654494325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E53260FD-439D-DE1D-B1F4-2E6654494325}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E53260FD-439D-DE1D-B1F4-2E6654494325}.Release|Any CPU.ActiveCfg = Release|Any CPU

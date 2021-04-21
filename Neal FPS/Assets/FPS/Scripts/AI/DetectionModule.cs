@@ -117,7 +117,18 @@ namespace Unity.FPS.AI
 
         public virtual void OnLostTarget() => onLostTarget?.Invoke();
 
-        public virtual void OnDetect() => onDetectedTarget?.Invoke();
+
+        //=> onDetectedTarget?.Invoke();
+        public virtual void OnDetect()
+        {
+            onDetectedTarget.Invoke();
+            {
+               
+                Debug.Log("failed");
+            }
+
+
+        }
 
         public virtual void OnDamaged(GameObject damageSource)
         {

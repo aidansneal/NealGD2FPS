@@ -467,9 +467,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectionSourcePoint: {fileID: 6571005840976436832}
-  DetectionRange: 20
-  AttackRange: 10
-  KnownTargetTimeout: 12
+  DetectionRange: 5
+  AttackRange: 0
+  KnownTargetTimeout: 10.85
   Animator: {fileID: 0}
 --- !u!1 &6421371450313891992
 GameObject:

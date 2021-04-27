@@ -187,7 +187,7 @@ MonoBehaviour:
   WeaponRoot: {fileID: 1505447205160222267}
   WeaponMuzzle: {fileID: 8334323006752503713}
   ShootType: 1
-  ProjectilePrefab: {fileID: 4918084320061585113, guid: 3446adbf4d98bae4987e48291bc26739,
+  ProjectilePrefab: {fileID: 4342720934262567893, guid: b39fa7b9dfed9b94c864d7f140e31506,
     type: 3}
   DelayBetweenShots: 0.1
   BulletSpreadAngle: 0

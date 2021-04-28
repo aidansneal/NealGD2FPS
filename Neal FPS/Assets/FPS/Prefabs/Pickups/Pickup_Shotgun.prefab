@@ -1,5 +1,17 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7253035516624082195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2773689924668320691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c5a9c4944cc1746b9ada4b6fc36607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5391986374566301945
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +287,21 @@ PrefabInstance:
       propertyPath: ShootType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8323776800172828795, guid: 31d97e822763d1f4cb769f7e3f7f7333,
+        type: 3}
+      propertyPath: AmmoReloadRate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323776800172828795, guid: 31d97e822763d1f4cb769f7e3f7f7333,
+        type: 3}
+      propertyPath: AmmoReloadDelay
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323776800172828795, guid: 31d97e822763d1f4cb769f7e3f7f7333,
+        type: 3}
+      propertyPath: DelayBetweenShots
+      value: 0.002
+      objectReference: {fileID: 0}
     - target: {fileID: 9178139022947274294, guid: 31d97e822763d1f4cb769f7e3f7f7333,
         type: 3}
       propertyPath: m_Layer
@@ -282,6 +309,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31d97e822763d1f4cb769f7e3f7f7333, type: 3}
+--- !u!1 &2773689924668320691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2225486910712267859, guid: 31d97e822763d1f4cb769f7e3f7f7333,
+    type: 3}
+  m_PrefabInstance: {fileID: 4079316539942514656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2773689924668320688 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2225486910712267856, guid: 31d97e822763d1f4cb769f7e3f7f7333,
